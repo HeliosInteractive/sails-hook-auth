@@ -1,0 +1,14 @@
+{
+  "name": "sails-hook-auth",
+  "version": "0.0.1",
+  "description": "Passport powered auth with models, controllers, and a service",
+  "main": "index.js",
+  "sails": {
+    "isHook": true
+  },
+  "dependencies": {
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "sails-util-mvcsloader": "^0.4.0"
+  }
+}
